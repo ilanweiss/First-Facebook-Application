@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="imageAlbumLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="imageAlbumLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="imageAlbumLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 175</value>
+  </data>
+  <data name="imageAlbumLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="imageAlbumLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;imageAlbumLabel.Name" xml:space="preserve">
+    <value>imageAlbumLabel</value>
+  </data>
+  <data name="&gt;&gt;imageAlbumLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageAlbumLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;imageAlbumLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="makeCollageButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="makeCollageButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 328</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="makeCollageButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="makeCollageButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 43</value>
+  </data>
+  <data name="makeCollageButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="makeCollageButton.Text" xml:space="preserve">
+    <value>Make Picture Collage</value>
+  </data>
+  <data name="&gt;&gt;makeCollageButton.Name" xml:space="preserve">
+    <value>makeCollageButton</value>
+  </data>
+  <data name="&gt;&gt;makeCollageButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;makeCollageButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;makeCollageButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="returnHomeButtonButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="returnHomeButtonButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 6</value>
+  </data>
+  <data name="returnHomeButtonButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="returnHomeButtonButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 43</value>
+  </data>
+  <data name="returnHomeButtonButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="returnHomeButtonButton.Text" xml:space="preserve">
+    <value>Return Home</value>
+  </data>
+  <data name="&gt;&gt;returnHomeButtonButton.Name" xml:space="preserve">
+    <value>returnHomeButtonButton</value>
+  </data>
+  <data name="&gt;&gt;returnHomeButtonButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;returnHomeButtonButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;returnHomeButtonButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AlbumListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="AlbumListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 119</value>
+  </data>
+  <data name="AlbumListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AlbumListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 164</value>
+  </data>
+  <data name="AlbumListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;AlbumListBox.Name" xml:space="preserve">
+    <value>AlbumListBox</value>
+  </data>
+  <data name="&gt;&gt;AlbumListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlbumListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AlbumListBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="AlbumCollageBoolean.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AlbumCollageBoolean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 72</value>
+  </data>
+  <data name="AlbumCollageBoolean.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AlbumCollageBoolean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 21</value>
+  </data>
+  <data name="AlbumCollageBoolean.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="AlbumCollageBoolean.Text" xml:space="preserve">
+    <value>Collage From Album</value>
+  </data>
+  <data name="&gt;&gt;AlbumCollageBoolean.Name" xml:space="preserve">
+    <value>AlbumCollageBoolean</value>
+  </data>
+  <data name="&gt;&gt;AlbumCollageBoolean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlbumCollageBoolean.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AlbumCollageBoolean.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="taggedRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="taggedRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="taggedRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="taggedRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 72</value>
+  </data>
+  <data name="taggedRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="taggedRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 21</value>
+  </data>
+  <data name="taggedRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="taggedRadioButton.Text" xml:space="preserve">
+    <value>Collage From Tagged Images</value>
+  </data>
+  <data name="&gt;&gt;taggedRadioButton.Name" xml:space="preserve">
+    <value>taggedRadioButton</value>
+  </data>
+  <data name="&gt;&gt;taggedRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;taggedRadioButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;taggedRadioButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="albumBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="albumPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 136</value>
+  </data>
+  <data name="albumPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 138</value>
+  </data>
+  <data name="albumPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="albumPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;albumPictureBox.Name" xml:space="preserve">
+    <value>albumPictureBox</value>
+  </data>
+  <data name="&gt;&gt;albumPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;albumPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;albumPictureBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
+    <value>radioButton3</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
+    <value>panelCollageTypeChoice</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButton6pic.Name" xml:space="preserve">
+    <value>radioButton6pic</value>
+  </data>
+  <data name="&gt;&gt;radioButton6pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton6pic.Parent" xml:space="preserve">
+    <value>panelCollageTypeChoice</value>
+  </data>
+  <data name="&gt;&gt;radioButton6pic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButton4pic.Name" xml:space="preserve">
+    <value>radioButton4pic</value>
+  </data>
+  <data name="&gt;&gt;radioButton4pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton4pic.Parent" xml:space="preserve">
+    <value>panelCollageTypeChoice</value>
+  </data>
+  <data name="&gt;&gt;radioButton4pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelCollageTypeChoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 328</value>
+  </data>
+  <data name="panelCollageTypeChoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 43</value>
+  </data>
+  <data name="panelCollageTypeChoice.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;panelCollageTypeChoice.Name" xml:space="preserve">
+    <value>panelCollageTypeChoice</value>
+  </data>
+  <data name="&gt;&gt;panelCollageTypeChoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelCollageTypeChoice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelCollageTypeChoice.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 12</value>
+  </data>
+  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="radioButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>9 Images</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
+    <value>radioButton3</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
+    <value>panelCollageTypeChoice</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton6pic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton6pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton6pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 12</value>
+  </data>
+  <data name="radioButton6pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="radioButton6pic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButton6pic.Text" xml:space="preserve">
+    <value>6 Images</value>
+  </data>
+  <data name="&gt;&gt;radioButton6pic.Name" xml:space="preserve">
+    <value>radioButton6pic</value>
+  </data>
+  <data name="&gt;&gt;radioButton6pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton6pic.Parent" xml:space="preserve">
+    <value>panelCollageTypeChoice</value>
+  </data>
+  <data name="&gt;&gt;radioButton6pic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton4pic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton4pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 12</value>
+  </data>
+  <data name="radioButton4pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="radioButton4pic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButton4pic.Text" xml:space="preserve">
+    <value>4 Images</value>
+  </data>
+  <data name="&gt;&gt;radioButton4pic.Name" xml:space="preserve">
+    <value>radioButton4pic</value>
+  </data>
+  <data name="&gt;&gt;radioButton4pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton4pic.Parent" xml:space="preserve">
+    <value>panelCollageTypeChoice</value>
+  </data>
+  <data name="&gt;&gt;radioButton4pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 305</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Select Amount of Images for Collage:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAiEAAAKnCAIAAADfnAoVAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAACi5JREFUeF7t1TERwEAMwLAw+zXgw6lF4U06c/C8PUmSijxGklTlMZKkKo+RJFV5
+        jCSpymMkSVUeI0mq8hhJUpXHSJKqPEaSVOUxkqQqj5EkVXmMJKnKYyRJVR4jSaryGElSlcdIkqo8RpJU
+        5TGSpCqPkSRVeYwkqcpjJElVHiNJqvIYSVKVx0iSqjxGklTlMZKkKo+RJFV5jCSpymMkSVUeI0mq8hhJ
+        UpXHSJKqPEaSVOUxkqQqj5EkVXmMJKnKYyRJVR4jSaryGElSlcdIkqo8RpJU5TGSpCqPkSRVeYwkqcpj
+        JElVHiNJqvIYSVKVx0iSqjxGklTlMZKkKo+RJFV5jCSpymMkSVUeI0mq8hhJUpXHSJKqPEaSVOUxkqQq
+        j5EkVXmMJKnKYyRJVR4jSaryGElSlcdIkqo8RpJU5TGSpCqPkSRVeYwkqcpjJElVHiNJqvIYSVKVx0iS
+        qjxGklTlMZKkKo+RJFV5jCSpymMkSVUeI0mq8hhJUpXHSJKqPEaSVDUfADQ8BoCKxwBQ8RgAKh4DQMVj
+        AKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCo
+        eAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgM
+        ABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAV
+        jwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8B
+        oOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDi
+        MQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEA
+        VDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8
+        BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaA
+        iscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrH
+        AFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ
+        8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEY
+        ACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAq
+        HgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4D
+        QMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DF
+        YwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMA
+        qHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4
+        DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwA
+        FY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWP
+        AaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg
+        4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIx
+        AFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBU
+        PAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwG
+        gIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCK
+        xwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscA
+        UPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDx
+        GAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgA
+        Kh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoe
+        A0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNA
+        xWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVj
+        AKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgMABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCo
+        eAwAFY8BoOIxAFQ8BoCKxwBQ8RgAKh4DQMVjAKh4DAAVjwGg4jEAVDwGgIrHAFDxGAAqHgNAxWMAqHgM
+        ABWPAaDiMQBUPAaAiscAUPEYACoeA0DFYwCoeAwAlXl7kiQVeYwkqcpjJElVHiNJqvIYSVKVx0iSqjxG
+        klTlMZKkKo+RJFV5jCSpymMkSVUeI0mq8hhJUpXHSJKqPEaSVOUxkqQqj5EkVXmMJKnKYyRJVR4jSary
+        GElSlcdIkqo8RpJU5TGSpCqPkSRVeYwkqcpjJElVHiNJqvIYSVKVx0iSqjxGklTlMZKkKo+RJFV5jCSp
+        ymMkSVUeI0mq8hhJUpXHSJKqPEaSVOUxkqQqj5EkVXmMJKnKYyRJVR4jSaryGElSlcdIkqo8RpJU5TGS
+        pCqPkSRVeYwkqcpjJElVHiNJqvIYSVKVx0iSqjxGklTlMZKkKo+RJFV5jCSpymMkSVUeI0mq8hhJUpXH
+        SJKqPEaSVOUxkqQqj5EkVXmMJKnKYyRJVR4jSaryGElSlcdIkpr2ftkBBxbU8l6pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>618, 452</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CollageMainForm</value>
+  </data>
+  <data name="&gt;&gt;albumBindingSource.Name" xml:space="preserve">
+    <value>albumBindingSource</value>
+  </data>
+  <data name="&gt;&gt;albumBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UI_CollageMainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

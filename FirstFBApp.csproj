@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CEA05BD-BDCC-48BD-8E43-F015D7BF53B7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>A20_Ex01_Ilan_302634654_Guy_310065362</RootNamespace>
+    <AssemblyName>A20 Ex01 Ilan 302634654 Guy 310065362</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facebook">
+      <HintPath>..\..\Documents\CS IDC\year IV\I\design patterns\01_FB01_BasicFacebookFeatures.V6.8.0.18\01_FB01_BasicFacebookFeatures.V6.8.0.18\FBApi\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FbGraphApiWrapper">
+      <HintPath>..\..\Documents\CS IDC\year IV\I\design patterns\01_FB01_BasicFacebookFeatures.V6.8.0.18\01_FB01_BasicFacebookFeatures.V6.8.0.18\FBApi\FbGraphApiWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageProcessor">
+      <HintPath>..\..\Documents\CS IDC\year IV\I\design patterns\ImageProcessor.2.8.0\lib\net452\ImageProcessor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CollageFactory\CollageBase.cs" />
+    <Compile Include="CollageFactory\CollageBuilder.cs" />
+    <Compile Include="CollageFactory\CollageData.cs" />
+    <Compile Include="CollageFactory\CollageFactory.cs" />
+    <Compile Include="CollageFactory\NinePicCollage.cs" />
+    <Compile Include="CollageFactory\ResizeImage.cs" />
+    <Compile Include="CollageFactory\SixPicCollage.cs" />
+    <Compile Include="CollageFactory\FourPicCollage.cs" />
+    <Compile Include="CollageFactory\SubFramePosition.cs" />
+    <Compile Include="Logics\AppSettings.cs" />
+    <Compile Include="Logics\Logic_CollageMain.cs" />
+    <Compile Include="Logics\Logic_CollageView.cs" />
+    <Compile Include="Logics\Logic_EditPhoto.cs" />
+    <Compile Include="Logics\Logic_PhotoWithLikes.cs" />
+    <Compile Include="Logics\Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_ChoosePhotoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI_ChoosePhotoForm.Designer.cs">
+      <DependentUpon>UI_ChoosePhotoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_CollageMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI_CollageMainForm.Designer.cs">
+      <DependentUpon>UI_CollageMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_CollageViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI_CollageViewForm.Designer.cs">
+      <DependentUpon>UI_CollageViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_EditPhoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI_EditPhoto.Designer.cs">
+      <DependentUpon>UI_EditPhoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI_HomeForm.Designer.cs">
+      <DependentUpon>UI_HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI_LoginForm.Designer.cs">
+      <DependentUpon>UI_LoginForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_ChoosePhotoForm.resx">
+      <DependentUpon>UI_ChoosePhotoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_CollageMainForm.resx">
+      <DependentUpon>UI_CollageMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_CollageViewForm.resx">
+      <DependentUpon>UI_CollageViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_EditPhoto.resx">
+      <DependentUpon>UI_EditPhoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_HomeForm.resx">
+      <DependentUpon>UI_HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_LoginForm.resx">
+      <DependentUpon>UI_LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\background login.png" />
+    <Content Include="images\unknown-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\CollageBase.datasource" />
+    <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Album.datasource" />
+    <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.User.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

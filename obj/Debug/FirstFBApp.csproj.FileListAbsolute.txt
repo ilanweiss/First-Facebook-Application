@@ -1,0 +1,20 @@
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\bin\Debug\A20 Ex01 Ilan 302634654 Guy 310065362.exe.config
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\bin\Debug\A20 Ex01 Ilan 302634654 Guy 310065362.exe
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\bin\Debug\A20 Ex01 Ilan 302634654 Guy 310065362.pdb
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\bin\Debug\Facebook.dll
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\bin\Debug\FbGraphApiWrapper.dll
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\bin\Debug\ImageProcessor.dll
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\bin\Debug\ImageProcessor.xml
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.csprojAssemblyReference.cache
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\A20_Ex01_Ilan_302634654_Guy_310065362.Properties.Resources.resources
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.UI_ChoosePhotoForm.resources
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.UI_CollageMainForm.resources
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.UI_CollageViewForm.resources
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.UI_EditPhoto.resources
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.UI_HomeForm.resources
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.UI_LoginForm.resources
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.csproj.GenerateResource.cache
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.csproj.CoreCompileInputs.cache
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\FirstFBApp.csproj.CopyComplete
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\A20 Ex01 Ilan 302634654 Guy 310065362.exe
+C:\Users\ilanw\Desktop\A20 Ex03 IlanWeiss 302634654 GuyLevitsky 310065362\obj\Debug\A20 Ex01 Ilan 302634654 Guy 310065362.pdb
